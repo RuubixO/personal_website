@@ -1,0 +1,30 @@
+MyDjango2Site
+
+[Template]
+<html>
+<head>
+  <bootstrap styles>
+
+  {{when page rendered,
+  insert [page/name/]}}
+
+</head>
+<body>
+  {{insert [page.name]}}
+
+  {{if page.name == /Home/, insert "Greeting"}}
+  <ul>
+    <li>{{for page in Home/[Pages]
+            add page.link to unordered list}}</li>
+  </ul>
+
+</body>
+</html>
+
+[Pages]
+  /Home/
+    /BensBlog/
+
+    /Resume/
+
+    /AboutMe/
