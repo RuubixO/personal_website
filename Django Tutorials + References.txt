@@ -1,0 +1,30 @@
+1. Python Django Web Framework - Full Course for Beginners
+  link: https://www.youtube.com/watch?v=F5mRW0jo-U4
+
+
+2. (Max Goodridge) How to Structure the Django Settings for Different Environments (Django Tutorial) | Part 60
+  link: https://www.youtube.com/watch?v=zPVLRvpzOOU
+
+
+3. Documentation
+  a. Pytest-Django
+    link: https://pytest-django.readthedocs.io/en/latest/index.html
+
+  b. Django
+    b1. settings:
+      link: https://docs.djangoproject.com/en/2.1/topics/settings/
+
+    b2.
+
+  c. pip
+    b1. documentation:
+      link: https://pip.pypa.io/en/stable/
+    b2. install from "requirements.txt":
+      link: https://stackoverflow.com/questions/7225900/how-to-install-packages-using-pip-according-to-the-requirements-txt-file-from-a
+
+4. Tools to-be-considered:
+  a. django-configurations
+    link: https://django-configurations.readthedocs.io/en/latest/#
+
+  b. Bandit
+    link: https://github.com/PyCQA/bandit
