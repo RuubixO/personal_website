@@ -1,5 +1,27 @@
 MyDjango2Site
 
+"""Jimmy is a python developer that met Ben at a networking event
+and wanted to learn more about him as a potential collaborator
+for a project of theirs.
+"""
+
+"""Jimmy types in www.bendavis3000.org and is taking to the home page.
+"""
+
+"""At the Home page, Jimmy sees a large photo as the background, along
+with a menu on the left side of the page with links to the other pages:
+AboutMe
+Resume
+contactme
+BensBlog
+
+Home page should also display the most current repository that I'm contributing
+to!
+
+(there should also be links to my social media, github, and other important
+code-related links)
+"""
+
 [Template]
 <html>
 <head>
