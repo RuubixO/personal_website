@@ -14,7 +14,10 @@
     b1. settings:
       link: https://docs.djangoproject.com/en/2.1/topics/settings/
 
-    b2.
+    b2. quick way to reset/make new SECRET_KEYS
+      source: couldn't remember where I found this
+      command: python manage.py shell -c 'from django.core.management import utils; print(utils.get_random_secret_key())'
+
 
   c. pip
     b1. documentation:
