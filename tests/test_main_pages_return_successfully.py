@@ -3,6 +3,8 @@ the existance of each web page"""
 
 from django.test import Client, TestCase
 
+import pytest
+
 
 # check pages and return http status code
 expected_page_urls = [
@@ -16,10 +18,9 @@ expected_page_urls = [
 
 
 # test that each page comes back correctly
-def test_page_success():
+def test_page_success(client):
     for pageurl in expected_page_urls:
-        c = Client()
-        response = c.get(pageurl)
+        response = client.get(pageurl)
 
         print(pageurl)
 
