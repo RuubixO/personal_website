@@ -36,10 +36,3 @@ def test_page_success(test_urls):
     print(test_urls)
 
     assert response.status_code == 200 or response.status_code == 302
-
-# test to dig deeper into redirect issues with '/admin/'
-def test_admin_redirects_page():
-    c = Client()
-    response = c.get('/BensBlog/')
-
-    assert response.status_code == 200
