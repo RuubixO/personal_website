@@ -8,6 +8,7 @@ py==1.8.0
 pytest==4.3.0
 pytest-cov==2.6.1
 pytest-django==3.4.8
+python-dotenv==0.10.1
 pytz==2018.9
 selenium==3.141.0
 six==1.12.0
